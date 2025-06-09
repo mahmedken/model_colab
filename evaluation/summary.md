@@ -27,4 +27,9 @@ after running your experiment, add a new section below with:
 - **description**: [what did you try?]
 
 ---
+### Camden Baucom - group5cbtest1 
+- **config**: performance heavily preferred, three levels: 32,32,16
+- **results**: accuracy=0.9667, f1=0.9666
+- **description**: performance always first, training time took nearly a second
+
 <!-- add experiments summary above this line -->
