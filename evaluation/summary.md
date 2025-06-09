@@ -18,6 +18,13 @@ after running your experiment, add a new section below with:
 - **results**: accuracy=0.8667, f1=0.8611
 - **description**: initial baseline configuration for comparison
 
+### Kathleen -- experiment 1 
+- **config** 7 layers [8,4], relu, dropout=0.2, lr=0.001, batch size=16, epochs=100
+- **results** accuracy: 0.8000
+f1-score: 0.7802
+training Time: 0.78 seconds
+- **description** increased number of layers
+
 ---
 
 # copy this section for each new experiment -- don't edit this template

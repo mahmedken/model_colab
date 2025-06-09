@@ -29,6 +29,36 @@
         "f1_score": 0.8611,
         "training_time_seconds": 1.11
       }
+    },
+    {
+      "timestamp": "2025-06-09T16:55:51.647726",
+      "experiment_name": "baseline",
+      "author": "kenny",
+      "description": "initial baseline configs",
+      "config": {
+        "model": {
+          "n_layers": 2,
+          "layer_sizes": [
+            8,
+            4
+          ],
+          "activation": "relu",
+          "dropout": 0.2,
+          "input_size": 4,
+          "output_size": 3
+        },
+        "training": {
+          "learning_rate": 0.001,
+          "batch_size": 16,
+          "epochs": 100,
+          "validation_split": 0.2
+        }
+      },
+      "results": {
+        "accuracy": 0.8667,
+        "f1_score": 0.8653,
+        "training_time_seconds": 0.79
+      }
     }
   ]
 }
