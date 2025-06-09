@@ -173,6 +173,7 @@ def log_results(config, accuracy, f1, training_time):
         }
     }
     
+    
     results_file = f"evaluation/results_{config['experiment']['name']}.json"
     # check if results file exists
     if os.path.exists(results_file):
