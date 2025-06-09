@@ -26,5 +26,13 @@ after running your experiment, add a new section below with:
 - **results**: accuracy=x.xxx, f1=x.xxx
 - **description**: [what did you try?]
 
----
-<!-- add experiments summary above this line -->
+Sultana Yeasmin
+Experiment-fun
+
+I simply doubled the number of epochs and batch size.
+
+I recieved a baseline accuracy and f1 of about .96.
+But with this new change, I received a accuracy and f1 of about .93.
+Then, I kept redoing the command and retrained the model multiple times. 
+With this, the accuracy and f1 changed to .8, then about .7 ish.
+My hypothesis is that this is due to overfitting and that the model had been exposed to training data from previous runs. 

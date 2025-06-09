@@ -29,6 +29,156 @@
         "f1_score": 0.8611,
         "training_time_seconds": 1.11
       }
+    },
+    {
+      "timestamp": "2025-06-09T16:56:03.067690",
+      "experiment_name": "baseline",
+      "author": "kenny",
+      "description": "initial baseline configs",
+      "config": {
+        "model": {
+          "n_layers": 2,
+          "layer_sizes": [
+            8,
+            4
+          ],
+          "activation": "relu",
+          "dropout": 0.2,
+          "input_size": 4,
+          "output_size": 3
+        },
+        "training": {
+          "learning_rate": 0.001,
+          "batch_size": 32,
+          "epochs": 200,
+          "validation_split": 0.2
+        }
+      },
+      "results": {
+        "accuracy": 0.9333,
+        "f1_score": 0.9327,
+        "training_time_seconds": 1.02
+      }
+    },
+    {
+      "timestamp": "2025-06-09T16:56:18.553259",
+      "experiment_name": "baseline",
+      "author": "kenny",
+      "description": "initial baseline configs",
+      "config": {
+        "model": {
+          "n_layers": 2,
+          "layer_sizes": [
+            8,
+            4
+          ],
+          "activation": "relu",
+          "dropout": 0.2,
+          "input_size": 4,
+          "output_size": 3
+        },
+        "training": {
+          "learning_rate": 0.01,
+          "batch_size": 32,
+          "epochs": 200,
+          "validation_split": 0.2
+        }
+      },
+      "results": {
+        "accuracy": 0.9667,
+        "f1_score": 0.9666,
+        "training_time_seconds": 0.92
+      }
+    },
+    {
+      "timestamp": "2025-06-09T16:56:33.189138",
+      "experiment_name": "baseline",
+      "author": "kenny",
+      "description": "initial baseline configs",
+      "config": {
+        "model": {
+          "n_layers": 2,
+          "layer_sizes": [
+            8,
+            4
+          ],
+          "activation": "relu",
+          "dropout": 0.2,
+          "input_size": 4,
+          "output_size": 3
+        },
+        "training": {
+          "learning_rate": 0.001,
+          "batch_size": 32,
+          "epochs": 200,
+          "validation_split": 0.2
+        }
+      },
+      "results": {
+        "accuracy": 0.8,
+        "f1_score": 0.8,
+        "training_time_seconds": 0.97
+      }
+    },
+    {
+      "timestamp": "2025-06-09T16:56:43.253005",
+      "experiment_name": "baseline",
+      "author": "kenny",
+      "description": "initial baseline configs",
+      "config": {
+        "model": {
+          "n_layers": 2,
+          "layer_sizes": [
+            8,
+            4
+          ],
+          "activation": "relu",
+          "dropout": 0.2,
+          "input_size": 4,
+          "output_size": 3
+        },
+        "training": {
+          "learning_rate": 0.001,
+          "batch_size": 32,
+          "epochs": 200,
+          "validation_split": 0.2
+        }
+      },
+      "results": {
+        "accuracy": 0.7,
+        "f1_score": 0.6105,
+        "training_time_seconds": 0.91
+      }
+    },
+    {
+      "timestamp": "2025-06-09T16:56:50.455174",
+      "experiment_name": "baseline",
+      "author": "kenny",
+      "description": "initial baseline configs",
+      "config": {
+        "model": {
+          "n_layers": 2,
+          "layer_sizes": [
+            8,
+            4
+          ],
+          "activation": "relu",
+          "dropout": 0.2,
+          "input_size": 4,
+          "output_size": 3
+        },
+        "training": {
+          "learning_rate": 0.001,
+          "batch_size": 32,
+          "epochs": 200,
+          "validation_split": 0.2
+        }
+      },
+      "results": {
+        "accuracy": 0.9333,
+        "f1_score": 0.9327,
+        "training_time_seconds": 0.79
+      }
     }
   ]
 }
