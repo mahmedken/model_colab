@@ -1,0 +1,37 @@
+{
+    "model": {
+      "n_layers": 3,
+      "layer_sizes": [32, 32, 16],
+      "activation": "relu",
+      "dropout": 0.3,
+      "input_size": 4,
+      "output_size": 3
+    },
+    "training": {
+      "learning_rate": 0.006,
+      "batch_size": 32,
+      "epochs": 150,
+      "validation_split": 0.2
+    },
+    "experiment": {
+      "name": "group5cbtest1",
+      "description": "performance preferred",
+      "author": "camden baucom"
+    },
+    "comments": {
+      "tuning_guidelines": {
+        "n_layers": "try 1-4 layers. more layers = more capacity but longer training",
+        "layer_sizes": "try [8], [16], [32], [16,8], [32,16], [64,32,16] depending on n_layers. Larger = more capacity",
+        "activation": "options available: 'relu', 'tanh', 'sigmoid'. relu usually performs best",
+        "dropout": "range: 0.0-0.5. higher = better performance on test set, too high risks unstable learning",
+        "learning_rate": "range: 0.001-0.1. Lower = stable but slow, higher = fast but unstable",
+        "batch_size": "try: 8, 16, 32. Larger = more stable gradients, (powers of 2)",
+        "epochs": "range: 50-200. more = longer training, watch for overfitting"
+      },
+      "example_experiments": {
+        "aggressive": "lr=0.05, dropout=0.0, layers=[32,16]",
+        "conservative": "lr=0.005, dropout=0.3, layers=[8]",
+        "deep": "layers=[32,16,8], lr=0.001, epochs=150"
+      }
+    }
+  } 
