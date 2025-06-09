@@ -50,16 +50,16 @@ git checkout main
 git pull origin main
 ```
 
-## project Structure
+## project structure
 ```
-├── README.md                 # This file
-├── config_baseline.json              # Baseline model hyperparameters
-├── config_[name].json        # Individual student configs (no conflicts!)
-├── train.py                  # Training script
-├── requirements.txt          # Python dependencies
+├── README.md                 
+├── config_baseline.json              # baseline model hyperparameters
+├── config_[experiment-name].json        # config for your experiment
+├── train.py                  # training script
+├── requirements.txt          # pckgs dependencies
 └── evaluation/
-    ├── results.json          # Experiment results log
-    └── README.md            # Summary of all experiments
+    ├── results_[experiment-name].json          # results for your experiment
+    └── sumamry.md            # summary of all experiments
 ```
 
 
