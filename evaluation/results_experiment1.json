@@ -1,0 +1,34 @@
+{
+  "experiments": [
+    {
+      "timestamp": "2025-06-09T16:58:49.386599",
+      "experiment_name": "experiment1",
+      "author": "kathleen",
+      "description": "change layer size",
+      "config": {
+        "model": {
+          "n_layers": 7,
+          "layer_sizes": [
+            8,
+            4
+          ],
+          "activation": "relu",
+          "dropout": 0.2,
+          "input_size": 4,
+          "output_size": 3
+        },
+        "training": {
+          "learning_rate": 0.001,
+          "batch_size": 16,
+          "epochs": 100,
+          "validation_split": 0.2
+        }
+      },
+      "results": {
+        "accuracy": 0.8,
+        "f1_score": 0.7802,
+        "training_time_seconds": 0.78
+      }
+    }
+  ]
+}
