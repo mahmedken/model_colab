@@ -21,8 +21,8 @@ after running your experiment, add a new section below with:
 ---
 
 # copy this section for each new experiment -- don't edit this template
-### [your Name] - [experiment name]  
-- **config**: [describe your configuration changes]
+### [Unzila] - [exp]  
+- **config**: [training for 99 epochs, learning rate: 0.01, batch size: 19, Segmentation fault: 11]
 - **results**: accuracy=x.xxx, f1=x.xxx
 - **description**: [what did you try?]
 
