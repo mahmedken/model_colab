@@ -27,11 +27,15 @@ training Time: 0.78 seconds
 
 ---
 
-# copy this section for each new experiment -- don't edit this template
-### [your Name] - [experiment name]  
-- **config**: [describe your configuration changes]
-- **results**: accuracy=x.xxx, f1=x.xxx
-- **description**: [what did you try?]
+### Izzy Coddington -  group 71
+- **config**: decreased learning rate to .05, increased validation split to .5
+- **results**: accuracy=0.9667, f1=0.9666
+- **description**: messing around
 
 ---
+### Camden Baucom - group5cbtest1 
+- **config**: performance heavily preferred, three levels: 32,32,16
+- **results**: accuracy=0.9667, f1=0.9666
+- **description**: performance always first, training time took nearly a second
+
 <!-- add experiments summary above this line -->

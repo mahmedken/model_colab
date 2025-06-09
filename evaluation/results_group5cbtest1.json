@@ -1,0 +1,35 @@
+{
+  "experiments": [
+    {
+      "timestamp": "2025-06-09T16:53:12.572720",
+      "experiment_name": "group5cbtest1",
+      "author": "camden baucom",
+      "description": "performance preferred",
+      "config": {
+        "model": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            32,
+            16
+          ],
+          "activation": "relu",
+          "dropout": 0.3,
+          "input_size": 4,
+          "output_size": 3
+        },
+        "training": {
+          "learning_rate": 0.006,
+          "batch_size": 32,
+          "epochs": 150,
+          "validation_split": 0.2
+        }
+      },
+      "results": {
+        "accuracy": 0.9667,
+        "f1_score": 0.9666,
+        "training_time_seconds": 0.83
+      }
+    }
+  ]
+}
