@@ -29,6 +29,66 @@
         "f1_score": 0.8611,
         "training_time_seconds": 1.11
       }
+    },
+    {
+      "timestamp": "2025-06-09T17:00:52.309368",
+      "experiment_name": "baseline",
+      "author": "kenny",
+      "description": "initial baseline configs",
+      "config": {
+        "model": {
+          "n_layers": 2,
+          "layer_sizes": [
+            8,
+            4
+          ],
+          "activation": "relu",
+          "dropout": 0.2,
+          "input_size": 4,
+          "output_size": 3
+        },
+        "training": {
+          "learning_rate": 0.001,
+          "batch_size": 16,
+          "epochs": 100,
+          "validation_split": 0.2
+        }
+      },
+      "results": {
+        "accuracy": 0.7667,
+        "f1_score": 0.7277,
+        "training_time_seconds": 35.87
+      }
+    },
+    {
+      "timestamp": "2025-06-09T17:05:46.030255",
+      "experiment_name": "baseline",
+      "author": "kenny",
+      "description": "initial baseline configs",
+      "config": {
+        "model": {
+          "n_layers": 3,
+          "layer_sizes": [
+            6,
+            4
+          ],
+          "activation": "relu",
+          "dropout": 0.2,
+          "input_size": 4,
+          "output_size": 6
+        },
+        "training": {
+          "learning_rate": 0.001,
+          "batch_size": 18,
+          "epochs": 100,
+          "validation_split": 0.2
+        }
+      },
+      "results": {
+        "accuracy": 0.9,
+        "f1_score": 0.8997,
+        "training_time_seconds": 4.83
+      }
     }
   ]
 }
